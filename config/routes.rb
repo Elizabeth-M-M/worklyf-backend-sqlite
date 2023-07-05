@@ -1,9 +1,14 @@
 Rails.application.routes.draw do
-  resources :tasks
+ 
   resources :groups
   resources :categories
   resources :profiles
   resources :users
+  resources :users, only: [:show] do
+   resources :tasks, only: [:index, :create]
+  end
+  resources :users, only: [:create, :destroy, :update]
+  resources :tasks, only: [:show, :destroy, :update]
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
