@@ -1,7 +1,7 @@
 puts "Starting..."
 user= User.create([
-  {email:"tasktester@gmail.com", password:"98765", password_confirmation:"98765"},
-  {email:"tasktester@gmail.com", password:"98765", password_confirmation:"98765"}
+  {email:"ellame@gmail.com", password:"98765", password_confirmation:"98765"},
+  {email:"biko@gmail.com", password:"98765", password_confirmation:"98765"}
   ])
 
 profile= Profile.create([
