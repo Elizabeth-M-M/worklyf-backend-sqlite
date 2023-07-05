@@ -1,24 +1,6 @@
-# README
+# Worklyf
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Description
+This is the back end of the Worklyf application site that utilises the Ruby on rails framework and an Sqlite3 database
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
