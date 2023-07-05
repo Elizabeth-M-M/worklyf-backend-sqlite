@@ -51,7 +51,7 @@ class TasksController < ApplicationController
     render json: {errors:["Task not found"]}, status: :not_found
   end
   
-  def invalid_task_params
+  def invalid_task_params(invalid)
     render json: {errors:invalid.record.errors.full_messages}, status: :unprocessable_entity
   end
 
