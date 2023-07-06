@@ -4,6 +4,7 @@ class UsersController < ApplicationController
 
   def create #POST /signup
     user= User.create!(user_params)
+    profile = Profile.create!(user_id:user.id, full_name:params[:full_name])
     render json: user
   end
    def destroy #DELETE /users/:id

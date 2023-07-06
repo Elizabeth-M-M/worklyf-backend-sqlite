@@ -2,8 +2,8 @@ Rails.application.routes.draw do
  
   resources :groups
   resources :categories
-  resources :profiles
-  resources :users
+  resources :profiles, only: [:show, :update]
+  
   resources :users, only: [:show] do
    resources :tasks, only: [:index, :create]
   end
