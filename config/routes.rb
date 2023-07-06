@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
  
-  resources :groups
+  resources :groups, only: [:index]
   resources :categories
   resources :profiles, only: [:show, :update]
   
