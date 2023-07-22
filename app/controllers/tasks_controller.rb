@@ -44,7 +44,7 @@ class TasksController < ApplicationController
   end
 
   def task_params
-    params.permit(:group_id, :category_id, :user_id, :description, :end_date, :start_date, :label, :status, :reminder, :title)
+    params.permit(:group_id, :category_id, :user_id, :description, :end_date, :start_date, :label, :status, :reminder, :title, :start_time, :end_time)
   end
 
   def task_not_found
