@@ -2,6 +2,11 @@ class UsersController < ApplicationController
   skip_before_action :verify_authenticity_token
   rescue_from ActiveRecord::RecordInvalid, with: :invalid_user_credentials
 
+  def show #GET /users/:id
+    user= User.find(params[:id])
+    render json: user
+  end
+
   def create #POST /signup
     user= User.create!(user_params)
     profile = Profile.create!(user_id:user.id, full_name:params[:full_name])

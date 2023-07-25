@@ -6,4 +6,6 @@ class User < ApplicationRecord
   has_many :groups, through: :tasks
   validates :email, uniqueness: true
   validates :password, length: {minimum:5, maximum:9}
+
+ 
 end
