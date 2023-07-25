@@ -1,5 +1,5 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :id, :email, :password_digest, :summary
+  attributes :id, :email, :summary
   has_one :profile
 
   def summary
