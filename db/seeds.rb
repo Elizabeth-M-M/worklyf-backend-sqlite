@@ -34,7 +34,9 @@ tasks= Task.create([
     reminder: true,
     user_id: 1,
     group_id: 1,
-    category_id: 1
+    category_id: 1,
+    start_time:"2023-07-25T20:04:00.000Z",
+   end_time:'2023-07-25T20:04:00.000Z'
   },
   {
     title: 'Prepare presentation',
@@ -46,7 +48,9 @@ tasks= Task.create([
     reminder: true,
     user_id: 2,
     group_id: 1,
-    category_id: 2
+    category_id: 2,
+    start_time:"2023-07-25T20:04:00.000Z",
+   end_time:'2023-07-25T20:04:00.000Z'
   },
   {
     title: 'Submit research paper',
@@ -58,7 +62,9 @@ tasks= Task.create([
     reminder: false,
     user_id: 1,
     group_id: 2,
-    category_id: 3
+    category_id: 3,
+    start_time:"2023-07-25T20:04:00.000Z",
+   end_time:'2023-07-25T20:04:00.000Z'
   },
   {
     title: 'Pay utility bills',
@@ -70,7 +76,9 @@ tasks= Task.create([
     reminder: true,
     user_id: 2,
     group_id: 1,
-    category_id: 1
+    category_id: 1,
+    start_time:"2023-07-25T20:04:00.000Z",
+   end_time:'2023-07-25T20:04:00.000Z'
   },
   {
     title: 'Plan vacation',
@@ -82,7 +90,9 @@ tasks= Task.create([
     reminder: true,
     user_id: 1,
     group_id: 2,
-    category_id: 8
+    category_id: 8,
+    start_time:"2023-07-25T20:04:00.000Z",
+   end_time:'2023-07-25T20:04:00.000Z'
   },
   {
     title: 'Update resume',
@@ -94,7 +104,9 @@ tasks= Task.create([
     reminder: true,
     user_id: 2,
     group_id: 1,
-    category_id: 4
+    category_id: 4,
+    start_time:"2023-07-25T20:04:00.000Z",
+   end_time:'2023-07-25T20:04:00.000Z'
   },
   {
     title: 'Exercise for 30 minutes',
@@ -106,7 +118,9 @@ tasks= Task.create([
     reminder: true,
     user_id: 1,
     group_id: 2,
-    category_id: 5
+    category_id: 5,
+    start_time:"2023-07-25T20:04:00.000Z",
+   end_time:'2023-07-25T20:04:00.000Z'
   },
   {
     title: 'Organize team meeting',
@@ -118,7 +132,9 @@ tasks= Task.create([
     reminder: true,
     user_id: 2,
     group_id: 1,
-    category_id: 2
+    category_id: 2,
+    start_time:"2023-07-25T20:04:00.000Z",
+   end_time:'2023-07-25T20:04:00.000Z'
   },
   {
     title: 'Read book',
@@ -130,7 +146,9 @@ tasks= Task.create([
     reminder: false,
     user_id: 1,
     group_id: 1,
-    category_id: 7
+    category_id: 7,
+    start_time:"2023-07-25T20:04:00.000Z",
+   end_time:'2023-07-25T20:04:00.000Z'
   },
    {
     title: 'Complete online course',
@@ -142,7 +160,9 @@ tasks= Task.create([
     reminder: true,
     user_id: 1,
     group_id: 2,
-    category_id: 3
+    category_id: 3,
+    start_time:"2023-07-25T20:04:00.000Z",
+   end_time:'2023-07-25T20:04:00.000Z'
   },
   {
     title: 'Schedule dentist appointment',
@@ -154,7 +174,9 @@ tasks= Task.create([
     reminder: true,
     user_id: 2,
     group_id: 1,
-    category_id: 6
+    category_id: 6,
+    start_time:"2023-07-25T20:04:00.000Z",
+   end_time:'2023-07-25T20:04:00.000Z'
   },
   {
     title: 'Write blog post',
@@ -166,7 +188,9 @@ tasks= Task.create([
     reminder: false,
     user_id: 1,
     group_id: 1,
-    category_id: 7
+    category_id: 7,
+    start_time:"2023-07-25T20:04:00.000Z",
+   end_time:'2023-07-25T20:04:00.000Z'
   },
   {
     title: 'Review project proposal',
@@ -178,7 +202,9 @@ tasks= Task.create([
     reminder: true,
     user_id: 2,
     group_id: 2,
-    category_id: 2
+    category_id: 2,
+    start_time:"2023-07-25T20:04:00.000Z",
+   end_time:'2023-07-25T20:04:00.000Z'
   },
   {
     title: 'Plan family gathering',
@@ -190,7 +216,9 @@ tasks= Task.create([
     reminder: true,
     user_id: 1,
     group_id: 1,
-    category_id: 5
+    category_id: 5,
+    start_time:"2023-07-25T20:04:00.000Z",
+   end_time:'2023-07-25T20:04:00.000Z'
   }
 ])
 puts "done"
