@@ -5,7 +5,7 @@ class TasksController < ApplicationController
 
   def index #GET /users/:user_id/tasks
     user= find_user
-    tasks= user.tasks
+    tasks= user.tasks.order('start_date ASC')
     render json: tasks
   end
 
@@ -50,7 +50,7 @@ class TasksController < ApplicationController
   def task_not_found
     render json: {errors:["Task not found"]}, status: :not_found
   end
-  
+
   def invalid_task_params(invalid)
     render json: {errors:invalid.record.errors.full_messages}, status: :unprocessable_entity
   end

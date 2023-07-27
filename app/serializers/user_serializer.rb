@@ -12,9 +12,9 @@ class UserSerializer < ActiveModel::Serializer
     }
   end
   def pending
-    [self.object.tasks.select{|task| task.status!=true}]
+    [self.object.tasks.select{|task| task.status!=true}.sort_by { |t| t[:start_date] }]
   end
   def completed
-    [self.object.tasks.select{|task| task.status==true}]
+    [self.object.tasks.select{|task| task.status==true}.sort_by { |t| t[:start_date] }]
   end
 end
