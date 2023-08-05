@@ -136,7 +136,7 @@ $ rails server
 
 #### POST
 
-/reviews
+/tasks
 - Creates a task
 
 ###### Action
@@ -163,29 +163,6 @@ $ rails server
 }
 ```
 ###### Response if successfull:
-```console
-{
-    "errors": [
-        "Start date can't be in the past"
-    ]
-}
-```
-###### Response:
-```console
-{
-    "comment": "Awesome",
-    "user": {
-    "id": 1,
-    "username": "ella"
-    }
-}
-```
-
-#### GET
-
-/articles
-- Gets all articles
-###### Response if not successfull:
 ```console
 {
     "id": 55,
@@ -271,6 +248,17 @@ $ rails server
   "age": "56",
   "occupation": "Cook"
 
+}
+```
+###### Response:
+```console
+{
+    "id": 9,
+    "gender": "female",
+    "age": "56",
+    "occupation": "Cook",
+    "full_name": Milly,
+    "user_id": 9
 }
 ```
 #### DELETE
