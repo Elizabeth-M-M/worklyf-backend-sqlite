@@ -9,20 +9,20 @@ puts "Starting..."
 #   {gender:"male", age:"26", occupation:"Chef", full_name:"Biko", user_id:2}
 #   ])
 
-# categories= Category.create([
-#   { name: 'Academic' },
-#   { name: 'Financial' },
-#   { name: 'Health and Fitness' },
-#   { name: 'Social and Relationship' },
-#   { name: 'Creative' },
-#   { name: 'Travel and Transportation' },
-#   { name: 'Organizational' },
-#   { name: 'Miscellaneous' }
-# ])
-# groups= Group.create([
-#   { name: 'Personal' },
-#   { name: 'Work' }
-# ])
+categories= Category.create([
+  { name: 'Academic' },
+  { name: 'Financial' },
+  { name: 'Health and Fitness' },
+  { name: 'Social and Relationship' },
+  { name: 'Creative' },
+  { name: 'Travel and Transportation' },
+  { name: 'Organizational' },
+  { name: 'Miscellaneous' }
+])
+groups= Group.create([
+  { name: 'Personal' },
+  { name: 'Work' }
+])
 # tasks= Task.create([
 #    {
 #     title: 'Buy groceries',

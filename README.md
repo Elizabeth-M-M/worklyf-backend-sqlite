@@ -236,7 +236,7 @@ $ rails server
     "user_id": 9
 }
 ```
-#### POST
+#### PATCH
 
 /profiles/:id
 - Updates profile
