@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-  
- 
+
+
   resources :groups, only: [:index]
   resources :categories, only: [:index]
   resources :profiles, only: [:show, :update]
-  
+
   resources :users, only: [:show] do
    resources :tasks, only: [:index, :create]
   end
